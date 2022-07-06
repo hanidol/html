@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hani_Nasri</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: "Raleway", sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      span {
+        border-bottom: rgb(252, 0, 160) solid 1px;
+        font-weight: bold;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: rgb(215, 12, 12);
+        color: rgb(14, 12, 12);
+        padding: 10px;
+        text-align: center;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+        margin-bottom: 1.5rem;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: rgb(235, 9, 16);
+        padding: 10px;
+      }
+
+      #main-nav {
+        background-color: rgb(228, 11, 119);
+        overflow: auto;
+      }
+
+      #main-nav li {
+        float: left;
+      }
+
+      #main-nav li a {
+        display: block;
+        padding: 15px;
+        color: rgb(13, 1, 1);
+        text-decoration: none;
+      }
+
+      #main-nav li a:hover {
+        text-decoration: underline;
+      }
+
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid rgb(46, 208, 6);
+        background: #2ede06;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+
+      .article {
+        border: #333 solid 1px;
+        padding: 1rem 2rem;
+        margin: 0.5rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="card">
+      <h1>My Website</h1>
+      <p>Welcome to the website of <span>Hani Nasri</span></p>
+    </header>
+    <nav>
+      <ul id="main-nav">
+        <li><a href="index.html">ADDS</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Resume.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main id="main">
+      <!-- Welcome Section -->
+      <section id="About" class="card">
+        <h2>Welcome To My Website</h2>
+        <p>
+          Dear, By means of this letter and the attached CV, I wish to submit my
+          profile to you and express to you all my motivation. Currently in
+          final year at ISSAT University of Gafsa Tunisia, I am preparing my
+          dissertation for obtaining my Professional Masters option Embedded
+          System. <br />
+          <a href="#" class="text-center">Click For More</a>
+        </p>
+      </section>
+      <!-- Welcome Section -->
+      <section id="work" class="card">
+        <h2>Welcome</h2>
+        <p>
+          Highly motivated, I am aware of the efforts required to succeed in
+          this course and am confident in my ability to manage the stress and
+          the amount of work associated with this position, as I have a strong
+          professional goal to achieve. <br />
+          <a href="#" class="text-center">Click For More</a>
+        </p>
+      </section>
+    </main>
+    <aside id="sidebar" class="card"></aside>
+    <img src="img/hani.jpg" alt="My Image" width="300" />
+
+    <div class="clr"></div>
+    <footer id="footer">
+      <p class="text-center">Cv &copy; My Blog 2022</p>
+    </footer>
+  </body>
+</html>
